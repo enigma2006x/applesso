@@ -15,6 +15,8 @@
 		83162153255E25AA007AA69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83162151255E25AA007AA69A /* LaunchScreen.storyboard */; };
 		8316215E255E25AA007AA69A /* AppleSSOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8316215D255E25AA007AA69A /* AppleSSOTests.swift */; };
 		83162169255E25AA007AA69A /* AppleSSOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83162168255E25AA007AA69A /* AppleSSOUITests.swift */; };
+		83B12A8F257086700080F929 /* ProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B12A8E257086700080F929 /* ProviderManager.swift */; };
+		83B12A97257094FA0080F929 /* AppleSSOHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B12A96257094FA0080F929 /* AppleSSOHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		83162168255E25AA007AA69A /* AppleSSOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSSOUITests.swift; sourceTree = "<group>"; };
 		8316216A255E25AA007AA69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839B76832565E65800F77ECA /* AppleSSO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSSO.entitlements; sourceTree = SOURCE_ROOT; };
+		83B12A8E257086700080F929 /* ProviderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderManager.swift; sourceTree = "<group>"; };
+		83B12A96257094FA0080F929 /* AppleSSOHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSSOHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				839B76832565E65800F77ECA /* AppleSSO.entitlements */,
+				83B12A8E257086700080F929 /* ProviderManager.swift */,
 				83162146255E25A7007AA69A /* AppDelegate.swift */,
 				83162148255E25A7007AA69A /* SceneDelegate.swift */,
 				8316214A255E25A7007AA69A /* ViewController.swift */,
+				83B12A96257094FA0080F929 /* AppleSSOHandler.swift */,
 				8316214C255E25A7007AA69A /* Main.storyboard */,
 				8316214F255E25AA007AA69A /* Assets.xcassets */,
 				83162151255E25AA007AA69A /* LaunchScreen.storyboard */,
@@ -262,6 +268,8 @@
 			files = (
 				8316214B255E25A7007AA69A /* ViewController.swift in Sources */,
 				83162147255E25A7007AA69A /* AppDelegate.swift in Sources */,
+				83B12A97257094FA0080F929 /* AppleSSOHandler.swift in Sources */,
+				83B12A8F257086700080F929 /* ProviderManager.swift in Sources */,
 				83162149255E25A7007AA69A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
